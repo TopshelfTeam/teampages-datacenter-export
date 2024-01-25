@@ -1,0 +1,37 @@
+{
+  "name": "tl-server-migration",
+  "version": "1.0.0",
+  "description": "Migrate tasklist from one server instance into another",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npx ts-node src",
+    "lint": "eslint ."
+  },
+  "author": "jlaramie",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node16": "^16.1.1",
+    "@tsconfig/recommended": "^1.0.3",
+    "@types/command-line-args": "^5.2.1",
+    "@types/command-line-usage": "^5.0.2",
+    "@types/isomorphic-fetch": "^0.0.37",
+    "@types/lodash": "^4.14.199",
+    "@types/node": "^20.8.4",
+    "@types/stream-json": "^1.7.7",
+    "@types/underscore": "^1.11.15",
+    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@typescript-eslint/parser": "^6.8.0",
+    "eslint": "^8.51.0"
+  },
+  "dependencies": {
+    "typescript": "latest",
+    "command-line-args": "^5.2.1",
+    "command-line-usage": "^7.0.1",
+    "dotenv": "^16.3.1",
+    "isomorphic-fetch": "^3.0.0",
+    "lodash": "^4.17.21",
+    "stream-json": "^1.8.0",
+    "ts-node": "^10.9.2",
+    "underscore": "^1.13.6"
+  }
+}
